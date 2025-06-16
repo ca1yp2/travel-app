@@ -192,7 +192,7 @@ const HomeScreen = () => {
                 <View style={styles.hamburger}>
                     <Hamburger
                         type="cross"
-                        underlayColor="transarent"
+                        underlayColor="transparent"
                         active={hamburgerActive}
                         onPress={() => {
                             setHamburgerActive(!hamburgerActive);
